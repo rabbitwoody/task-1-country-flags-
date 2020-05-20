@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.flag__all{
+    margin-top: 50px;
+}
+.flags{
+    border: #000 2px solid;
+    margin-bottom: 20px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flag__ukraine{
+    height: 200px;  
+}
+.flag__ukraine-yellow{
+    background-color: yellow;
+    width: 100%;
+    height: 50%;
+}
+.flag__ukraine-blue{
+    background-color: blue;
+    width: 100%;
+    height: 50%;
+}
+.flag__japan{
+    background-color: #fff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+.flag__japan__circle{
+    background-color: rgb(255, 0, 0);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;   
+}
+.flag__iceland{
+    height: 216px;
+    background-color: #02529c;
+    position: relative;
+}
+.flag__iceland__vertical-white{
+    width: 48px;
+    height: 100%;
+    background-color: #fff;
+    margin-left: 84px;
+}
+.flag__iceland__vertical-red{
+    width: 24px;
+    height: 100%;
+    background-color: #dc1e35;
+    margin-left: 12px;
+    position: absolute;
+    z-index: 1;
+}
+.flag__iceland__horizontal-white{
+    height: 48px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 84px;
+}
+.flag__iceland__horizontal-red{
+    height: 24px;
+    width: 100%;
+    background-color: #dc1e35;
+    margin-top: 12px;
+}
+.flag__czech{
+    height: 200px;
+    position: relative;
+}
+.flag__czech-white{
+    width: 100%;
+    height: 50%;
+    background-color: #fff;
+}
+.flag__czech-red{
+    width: 100%;
+    height: 50%;
+    background-color: #d7141a;
+}
+.flag__czech__triangle-blue{
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-top: 100px solid transparent;
+	border-left: 150px solid #11457e;
+    border-bottom: 100px solid transparent;
+    top: 0;
+}
